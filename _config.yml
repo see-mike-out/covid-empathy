@@ -21,18 +21,19 @@
 title: 코로나19 확진자/완치자 사례 공유
 email: kimhyuck777@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  코로나19 확진자 및 완치자들이 비슷한 상황에 있는 다른 사람들의 이야기를 읽으며 "나만 이런가?" 하는 불안감을 줄이고, 심리적인 안정감을 찾아보기 위해 만든 페이지입니다. 관련된 정보를 접할 때마다 오히려 불안감이 상승되는 경우에는 이용하지 않는 것이 좋습니다.
-  부정확한 정보가 퍼지면, 코로나19 감염 당국을 믿지 못하게 되거나 잘못된 정보에 의존하게 되는 등 안 좋은 영향이 있습니다. 따라서, 본 페이지의 일부 내용을 발췌하여 공유하거나 및 기사화하기를 원하지 않습니다. 공유되는 사연의 내용은 사연 당사자에게 저작권이 있습니다.
-  부정확한 정보가 무분별하게 퍼지거나 개인정보가 훼손되는 것을 막기 위해 일차적인 선별 후 게시합니다. 사연을 공유하고 싶으신 분은 kimhyuck777@gmail.com 으로 이메일을 보내주세요. 사연 및 구체적인 개인정보는 포함하지 않아도 되며, 우선은 단순 공유 의사만 보내주셔도 됩니다. 이후, 어떻게 공유하면 좋을지에 대해 더 자세히 안내해 드리겠습니다.
+  코로나19 확진자 및 완치자들이 서로 사례를 나누며 불안감을 줄이고, 심리적인 안정감을 찾아보기 위해 만든 페이지입니다. 불확실한 정보의 확산을 막기 위해 일부 내용을 발췌하여 공유하거나 및 기사화하기를 원하지 않습니다. 공유되는 사연의 내용은 사연 당사자에게 저작권이 있습니다.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://see-mike-out.github.io/covid-empathy" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username:  ""
+url: "https://see-mike-out.github.io/covid-empathy/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: "HyeokMKim"
+github_username:  "see-mike-out"
 
 # Build settings
-# theme: minima
+theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  date_format: "%Y년 %-m월 %-d일"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
