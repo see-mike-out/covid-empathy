@@ -31,19 +31,6 @@
   <header class="blue darken-2" style="width: 100%; padding-top: 50px; padding-bottom: 50px; margin-bottom: 50px;">
     <h1 class="white-text" style="text-align: center; line-height: 100%;">{{ page.title }}</h1>
   </header>
-  <div class="container">
-    <div class="row">
-      <div class="col s12" style="margin-top: 30px;">
-        <h3 class="center">글 목록</h3>
-        <ul class="collection">
-          {% for post in site.posts %}
-            <li class="collection-item">
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
+  {{ content }}
 </body>
 </html>
