@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: home
 title: 소개
 ---
 
