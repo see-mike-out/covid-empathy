@@ -22,8 +22,8 @@ title: 코로나19 확진자/완치자 사례 공유
 email: kimhyuck777@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   코로나19 확진자 및 완치자들이 서로 사례를 나누며 불안감을 줄이고, 심리적인 안정감을 찾아보기 위해 만든 페이지입니다. 불확실한 정보의 확산을 막기 위해 일부 내용을 발췌하여 공유하거나 및 기사화하기를 원하지 않습니다. 공유되는 사연의 내용은 사연 당사자에게 저작권이 있습니다.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://see-mike-out.github.io/covid-empathy/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/covid-empathy" # the subpath of your site, e.g. /blog
+url: "https://see-mike-out.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "HyeokMKim"
 github_username:  "see-mike-out"
 
